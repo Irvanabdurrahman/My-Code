@@ -1,0 +1,21 @@
+h2 {color:magenta;text-decoration:blink}
+body {background-image:url('linkin.jpg');}
+legend
+{
+color:red;
+background:Blue;
+border:1px solid #781351;
+padding: 2px 6px
+}
+
+label
+{
+text-align:center;
+color:red;
+}
+
+input.tb
+{
+background-color:magenta;
+border:solid green;
+}

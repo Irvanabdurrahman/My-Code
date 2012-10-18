@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>Form Biodata</title></head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<body background="blink.jpg">
+<form action="#">
+<fieldset>
+<legend>FORM BIODATA</legend>
+<table>
+<tr>
+	<td><label for="nama">Nama</label></td>
+	<td>:</td>
+	<td><input type"text" maxlength="30" id="name" class="text"></td>
+</tr>
+<tr>
+	<td><label for="gender">Jenis Kelamin</label></td>
+	<td>:</td>
+	<td>
+	<input type="radio" value="cowok" name="gender">Laki-laki<br>
+	<input type="radio" value="cewek" name="gender">Perempuan
+	</td>
+</tr>
+<tr>
+	<td><label for="birth">Tempat/Tgl lahir</label></td>
+	<td>:</td>
+	<td>
+	<input type"text" maxlength="20" size="20" id="kota" class="text">
+	/
+	<input type"text" maxlength="2" size="2" id="tgl" class="text">
+	<select name="bln" class="text">
+	<option value="jan">Januari
+	<option value="feb">Februari
+	<option value="mar">Maret
+	<option value="apr">April
+	<option value="mei">Mei
+	<option value="jun">Juni
+	<option value="jul">Juli
+	<option value="agst">Agustus
+	<option value="sept">September
+	<option value="okt">Oktober
+	<option value="nop">Nopember
+	<option value="des">Desember
+	
+	<input type"text" maxlength="4" size="4" id="thn" class="text">
+	</td>
+</tr>
+<tr>
+	<td><label for="add">Alamat</label></td>
+	<td>:</td>
+	<td><textarea rows="3" id="add" cols="30" class="text"></textarea></td>
+</tr>
+<tr>
+	<td><label for="agm">Agama</label></td>
+	<td>:</td>
+	<td>
+	<input type="radio" value="islam" name="agm">Islam<br>
+	<input type="radio" value="kristen" name="agm">Kristen Protestan<br>
+	<input type="radio" value="katholik" name="agm">Kristen Katholik<br>
+	<input type="radio" value="hindu" name="agm">Hindu<br>
+	<input type="radio" value="buddha" name="agm">Buddha
+	</td>
+</tr>
+<tr>
+	<td><label for="mail">Email</label></td>
+	<td>:</td>
+	<td><input type"text" maxlength="20" size="20" id="mail" class="text"></td>
+</tr>
+<tr>
+	<td colspan="3" align="center">
+	<input type="submit" value=SEND class="text">
+	<input type="reset" value=CANCEL class="text">
+	</td>
+</tr>
+</table>
+</fieldset>
+</body>
+</html>

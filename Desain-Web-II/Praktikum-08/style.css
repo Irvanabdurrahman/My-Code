@@ -1,0 +1,11 @@
+fieldset{border: 5px dotted blue}
+
+label{font-family: papyrus; color: yellow}
+
+legend {color: white; background: green; border: 5px
+dotted brown; padding 5px; font-family: comic sans ms;
+font-size: 20; font-weight: bold}
+
+.text{color: green; font-family: comic sans ms}
+
+table{color: yellow; font-family: papyrus}
