@@ -1,0 +1,86 @@
+1. Tabel Obat
+
+CREATE TABLE IF NOT EXISTS obat
+(
+id_obat INT PRIMARY KEY AUTO_INCREMENT,
+Nama_obat VARCHAR(15),
+jenis_obat VARCHAR(15),
+Harga_obat VARCHAR(15),
+Stock_obat VARCHAR(15),
+id_supplier INT
+)
+
+INSERT INTO obat(nama_obat,jenis_obat,harga_obat,stock_obat) VALUE('Panadol','tablet','5000','80')
+
+2. Tabel Karyawan
+
+CREATE TABLE IF NOT EXISTS Karyawan
+(
+Id_karyawan INT PRIMARY KEY AUTO_INCREMENT,
+Nama_karyawan VARCHAR(15),
+Alamat_karyawan VARCHAR(15),
+Kota_karyawan VARCHAR(15),
+Status_karyawan VARCHAR(15),
+No_telp_karyawan INT
+)
+
+3. Tabel Pelanggan
+
+CREATE TABLE IF NOT EXISTS Pelanggan
+(
+id_pelanggan INT PRIMARY KEY AUTO_INCREMENT,
+Nama_pelanggan TEXT,
+ALamat_pelanggan VARCHAR(15),
+Jenis_Kelamin VARCHAR(15),
+Pekerjaan_pelanggan TEXT
+)
+
+//input
+INSERT INTO pelanggan(nama_pelanggan,alamat_pelanggan,jenis_kelamin,pekerjaan_pelanggan) VALUE('jhon','Jagakarsa','Pria','Dosen')
+
+4. TabelSupplier
+
+CREATE TABLE IF NOT EXISTS Supplier
+(
+id_supplier INT PRIMARY KEY AUTO_INCREMENT,
+Nama_supplier VARCHAR(15),
+Alamat_supplier TEXT,
+Kota_supplier VARCHAR(15),
+No_telp_supplier INT
+)
+
+INSERT INTO supplier(nama_supplier,alamat_supplier,kota_supplier,no_telp_supplier) VALUE('konimex','Kuningan','Jakarta','0210837762')
+
+5. Tabel Faktur_Penjualan
+
+CREATE TABLE IF NOT EXISTS Faktur_Penjualan
+(
+no_penjualan INT PRIMARY KEY AUTO_INCREMENT,
+tanggal_penjualan DATE,
+id_pelanggan INT,
+Id_karyawan INT,
+id_obat INT,
+jumlah_penjualan INT,
+total_penjualan INT,
+pajak_penjualan INT,
+total_bayar INT
+)
+
+INSERT INTO faktur_penjualan(tanggal_penjualan,jumlah_penjualan,Total_penjualan,pajak_penjualan,total_bayar) VALUE('12/01/2012/','30','40','100000','1000000')
+
+6. Tabel Faktur_Supply
+
+CREATE TABLE IF NOT EXISTS Faktur_Supply
+(
+no_supply INT PRIMARY KEY AUTO_INCREMENT,
+tanggal_supply DATE,
+Id_karyawan INT,
+id_supply INT,
+id_obat INT,
+jumlah_obat INT,
+total_supply INT,
+pajak_supply INT,
+total_bayar_supply INT
+)
+
+INSERT INTO faktur_supply(tanggal_supply,jumlah_obat,total_supply,pajak_supply,total_bayar_supply) VALUE('14/03/2012','20','20','50.000','1000.000')
