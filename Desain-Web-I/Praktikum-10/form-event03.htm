@@ -1,0 +1,19 @@
+<html>
+<head><title>vbscript implisit</title></head>
+<body>
+<form name="form1">
+<h2>Form Resume Berita</h2>
+<pre>
+Penulis 	: <input type=text name="test1"><br><p>
+Judul Berita 	: <input type=text name="test2"><br><p>
+Jumlah halaman 	: <input type=text name="test3"><br><p></pre>
+<input type=submit name=submit value="Kirim">
+<input type=reset name=reset value="Batal">
+<script language="VBScript">
+sub submit_onclick()
+    MsgBox "hello," & form1.test1.value&", siap diproses"
+end sub
+</script>
+</form>
+</body>
+</html>

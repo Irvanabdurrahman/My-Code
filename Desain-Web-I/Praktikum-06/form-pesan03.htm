@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>input</title></head>
+<body>
+<form action=terima_data03.htm method=get>
+<h2>Pemesanan Katalog Buku</h2>
+<table border="1">
+<tr>
+  <td>Nama<br></td>
+  <td><input type=text name="nama"></td>
+</tr>
+<tr>
+  <td>Tanggal Pesan</td>
+  <td><input type=text size="2"> - 
+  <input type=text size="2"> - 
+  <input type=text size="2"></td>
+</tr>
+<tr>
+  <td>Jenis Buku</td>
+  <td><input type=radio name="buku" value=Ilmiah>Ilmiah
+      <input type=radio name="buku" value=Non Ilmiah>Non Ilmiah</td>
+</tr>
+<tr>
+  <td>Subjek yang disukai</td>
+  <td><input type="checkbox" name="hoby" value=Musik>Musik
+      <input type="checkbox" name="hoby" value=Komputer>Komputer
+      <input type="checkbox" name="hoby" value=Sosial>Sosial
+      <input type="checkbox" name="hoby" value=Fiksi>Fiksi</td>
+</tr>
+<tr>
+  <td>Komentar</td>
+  <td><textarea rows="2" cols="50"></textarea></td>
+</tr>
+<tr>
+  <td>Kategori Katalog</td>
+  <td><select name="katagori">
+      <option value="Pemrograman">Pemrograman
+      <option value="Musik pop">Musik pop
+      <option value="Fiksi Ilmiah">Fiksi Ilmiah
+      <option value="Marketing" selected>Marketing
+      <option value="Web Development">Web Development
+      <option value="Lain-lain">Lain-lain</td>
+</tr>
+</table>
+<br><br>
+<input type=submit  name=submit value="Kirim">
+<input type=reset name=reset value="batal">
+</form>
+</body>
+</html>

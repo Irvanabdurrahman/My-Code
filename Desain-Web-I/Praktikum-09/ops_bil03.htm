@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>prompt</title>
+</head>
+<body>
+<script type="text/javascript">
+var x=prompt("Masukkan bilangan 1:","");
+try
+{
+if(x>10)
+throw "Err1";
+else if(x<0)
+throw "Err2";
+}
+catch(er)
+{
+if(er=="Err1")
+alert("Error! The value is too high");
+if(er == "Err2")
+alert("Error! The value is too low");
+}
+</script>
+<script type="text/javascript">
+var y=prompt("Masukkan bilangan 2:","");
+try
+{
+if(y>10)
+throw "Err1";
+else if(y<0)
+throw "Err2";
+}
+catch(er)
+{
+if(er=="Err1")
+alert("Error! The value is too high");
+if(er == "Err2")
+alert("Error! The value is too low");
+}
+</script>
+<script type="text/javascript">
+var z;
+var s;
+var t;
+var r;
+document.write("<p>Hasil operasi bilangan tersebut adalah :</p>");
+
+
+document.write("Penjumlahan : ");
+document.write(z=parseInt(x)+parseInt(y));
+document.write("<br/>");
+document.write("Pengurangan : ");
+document.write(s=x-y);
+document.write("<br/>");
+document.write("Perkalian : ");
+document.write(t=x*y);
+document.write("<br/>");
+document.write("Pembagian : ");
+document.write(r=x/y);
+</script>
+</body>
+</html>
