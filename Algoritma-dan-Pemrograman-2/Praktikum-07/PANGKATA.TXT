@@ -1,0 +1,27 @@
+_______________________________________________
+
+Pembuat : Irvan Abdurrahman | 4510210003  
+Program : Perpangkatan By Address
+Update  : 19 April 2011
+_______________________________________________
+
+==MENU PILIHAN==
+1.Input Angka
+2.Hitung pangkat
+3.Exit
+Masukkan Pilihan Anda : 1
+Masukkan Angka : 2
+Masukkan Nilai Pangkat : 4
+
+==MENU PILIHAN==
+1.Input Angka
+2.Hitung pangkat
+3.Exit
+Masukkan Pilihan Anda : 2
+Hasilnya Adalah : 16
+
+==MENU PILIHAN==
+1.Input Angka
+2.Hitung pangkat
+3.Exit
+Masukkan Pilihan Anda : 3

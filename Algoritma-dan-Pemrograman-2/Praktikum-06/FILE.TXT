@@ -1,0 +1,58 @@
+_________________________________________________
+
+Program		:Operator by adress
+Pembuat		:Irvan Abdurrahman | 4510210003
+Update		:12 April 2011
+_________________________________________________
+
+Masukkan angka ke-1 = 5
+Masukkan angka ke-2 = 5
+
+=Operator=
+1.Penjumlahan
+2.Pengurangan
+3.Perkalian
+4.Pembagian
+5.Keluar
+Masukkan pilihan anda : 1
+Hasil Penjumlahan = 10
+
+
+=Operator=
+1.Penjumlahan
+2.Pengurangan
+3.Perkalian
+4.Pembagian
+5.Keluar
+Masukkan pilihan anda : 2
+Hasil Pengurangan = 0
+
+
+=Operator=
+1.Penjumlahan
+2.Pengurangan
+3.Perkalian
+4.Pembagian
+5.Keluar
+Masukkan pilihan anda : 3
+Hasil perkalian = 25
+
+
+=Operator=
+1.Penjumlahan
+2.Pengurangan
+3.Perkalian
+4.Pembagian
+5.Keluar
+Masukkan pilihan anda : 4
+Hasil pembagian = 1
+
+
+=Operator=
+1.Penjumlahan
+2.Pengurangan
+3.Perkalian
+4.Pembagian
+5.Keluar
+Masukkan pilihan anda : 5
+Terima Kasih

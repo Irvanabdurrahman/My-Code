@@ -1,0 +1,27 @@
+___________________________________________
+
+Pembuat : Irvan Abdurrahman | 4510210003
+Program : Perpangkatan By Value
+Update  : 19 April 2011
+___________________________________________
+
+==MENU PILIHAN==
+1.Input Angka
+2.Hitung Nilai
+3.Exit
+Masukkan Pilihan Anda : 1
+Masukkan Angka : 2
+Masukkan Nilia Pangkat : 3
+
+==MENU PILIHAN==
+1.Input Angka
+2.Hitung Nilai
+3.Exit
+Masukkan Pilihan Anda : 2
+Hasilnya Adalah : 8
+
+==MENU PILIHAN==
+1.Input Angka
+2.Hitung Nilai
+3.Exit
+Masukkan Pilihan Anda : 3
